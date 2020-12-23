@@ -5,7 +5,5 @@ input.o: input.c
 	gcc -c input.c 
 processor.o: processor.c
 	gcc -c processor.c
-run:
-	./processor & ./input
 clean:
 	rm *.o
